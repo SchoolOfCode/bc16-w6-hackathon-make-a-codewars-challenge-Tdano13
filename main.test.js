@@ -1,7 +1,7 @@
 // import test from vitest
 import { expect, test } from 'vitest';
 // import totalExpenses function
-import { totalExpenses } from './main.test';
+import { totalExpenses } from './main.js';
 
 // test("MINUS operator", function (){
 //     // ARRANGE
