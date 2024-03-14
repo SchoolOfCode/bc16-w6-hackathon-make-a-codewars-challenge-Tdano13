@@ -17,3 +17,11 @@ import { totalExpenses } from './main.js';
 //     expect(actual).toBe(expected);
 //     });
   
+test('Total expenses for an empty array should be zero', () => {
+    const emptyArray = [];
+    const expected = 0;
+
+    const actual = totalExpenses(emptyArray);
+
+    expect(actual).toBe(expected);
+});
