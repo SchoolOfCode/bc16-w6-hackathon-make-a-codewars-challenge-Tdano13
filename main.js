@@ -10,7 +10,7 @@
 
 // MVP 1
 
-function totalExpenses(expenses) {
+export function totalExpenses(expenses) {
     let totalSpent = 0;
     for (let expense of expenses) {
         if (expense < 0) {
