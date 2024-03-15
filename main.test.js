@@ -3,6 +3,7 @@ import { expect, test } from 'vitest';
 // import totalExpenses function
 import { totalExpenses } from './main.js';
 
+
 // test("MINUS operator", function (){
 //     // ARRANGE
 //     const operator = "-";
@@ -90,3 +91,5 @@ test('Decimal numbers containing positive, negative and zero values', () => {
     // Assert that the result is 0
     expect(actual).toBe(expected);
 });
+
+
