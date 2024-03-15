@@ -77,3 +77,16 @@ test('Zero in an array', () => {
     // Assert that the result is 0
     expect(actual).toBe(expected);
 });
+
+// Write the test case
+test('Decimal numbers containing positive, negative and zero values', () => {
+    // Define an with decimal numbers
+    const decimalExpenses = [-10.3, -10.5, 10, 0, 4];
+    const expected = -20.8;
+
+    // Call the function with the 0 in an array
+    const actual = totalExpenses(decimalExpenses);
+
+    // Assert that the result is 0
+    expect(actual).toBe(expected);
+});
