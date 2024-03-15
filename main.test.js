@@ -51,3 +51,16 @@ test('An array containing only negative expenses -- expenditures', () => {
     // Assert that the result is -440 as expected
     expect(actual).toBe(expected);
 });
+
+// Write the test case
+test('An array containing both negaatsive and positive numbers -- expenditures and income', () => {
+    // Define an array containing both positive and negative expenses
+    const negativeAndPositiveExpenses = [-7, -100, -150, -144, -39, 65, 340, 8900984, 21, 17];
+    const expected = -440;
+
+    // Call the function with the array of positive and negative expenses/ income
+    const actual = totalExpenses(negativeAndPositiveExpenses);
+
+    // Assert that the result is -440 as expected
+    expect(actual).toBe(expected);
+});
