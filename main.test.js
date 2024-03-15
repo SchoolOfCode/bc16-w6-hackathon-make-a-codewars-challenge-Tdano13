@@ -25,3 +25,29 @@ test('Total expenses for an empty array should be zero', () => {
 
     expect(actual).toBe(expected);
 });
+
+// Write the test case
+test('Total expenses for an array containing only positive expenses (income) -- this should be zero', () => {
+    // Define an array containing only positive expenses
+    const positiveExpenses = [50, 100, 150, 144, 39];
+    const expected = 0;
+
+    // Call the function with the array of positive expenses
+    const actual = totalExpenses(positiveExpenses);
+
+    // Assert that the result is zero
+    expect(actual).toBe(expected);
+});
+
+// Write the test case
+test('An array containing only negative expenses -- expenditures', () => {
+    // Define an array containing only negative expenses
+    const negativeExpenses = [-7, -100, -150, -144, -39];
+    const expected = -440;
+
+    // Call the function with the array of negative expenses
+    const actual = totalExpenses(negativeExpenses);
+
+    // Assert that the result is -440 as expected
+    expect(actual).toBe(expected);
+});

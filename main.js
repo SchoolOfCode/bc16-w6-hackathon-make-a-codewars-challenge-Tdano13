@@ -22,7 +22,7 @@ export function totalExpenses(expenses) {
 
 // What am I going to test? 
 
-// first if the test works -- need to fail first and then pass.
+// 
 
 // An empty array of expenses.
 // An array containing only positive expenses.
