@@ -76,14 +76,24 @@ calculateLastYearExpenditure([
     { amount: -50, date: '22-11-23' },
 ])
 
-Plan
+### Plan
 
 // test bare bones test
 // write a function in js file/ export that function to the test file
 // in the test file start writing unit tests for different scenarios
 
-1 Test with expenses received in the last year.
-2 Test with expenses received in the current year.
-3 Test with expenses received in multiple years, including the last year, and the year before or a year from 10 years ago
+1 Test with expenses received in the last year -- this should give the total sum as we are counting the expenses accounted for only in last year
+2 Test with expenses received in the current year -- this shouldn't give any number should be 0 as we are not considering expenses for this year
+3 Test with expenses received in multiple years, including the last year, and the year before or a year from 10 years ago -- only should give the total
+number of the expenses incured last year as we are considering those only
+
+
+### Reflections
+
+Worked amazingly as a team -- we did the Disney ideation together, feeding each other with our plans and also supported each 
+other. When someone was struggling like setting up the test or struggling in any way we would make sure
+that everyone was on the same page and hasn't been left behind. 
+
+
 
 
