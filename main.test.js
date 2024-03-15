@@ -64,3 +64,16 @@ test('An array containing both negaatsive and positive numbers -- expenditures a
     // Assert that the result is -440 as expected
     expect(actual).toBe(expected);
 });
+
+// Write the test case
+test('Zero in an array', () => {
+    // Define an array containing number 0
+    const negativeExpenses = [0];
+    const expected = 0;
+
+    // Call the function with the 0 in an array
+    const actual = totalExpenses(negativeExpenses);
+
+    // Assert that the result is 0
+    expect(actual).toBe(expected);
+});
